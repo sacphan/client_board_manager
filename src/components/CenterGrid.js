@@ -22,7 +22,7 @@ export default function CenteredGrid() {
     useEffect(() => {
         async function fetchBoardList() {
 
-            const requestURL = "https://boardmanager-1712716.herokuapp.com/WeatherForecast";
+            const requestURL = "https://localhost:44373/api/BoardController/getAllBoards";
             const response = await fetch(requestURL);
             const responseJson = await response.json();
             setBoards(responseJson);

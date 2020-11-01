@@ -1,34 +1,12 @@
-//import React, { Component } from 'react';
-//import { Route } from 'react-router';
-//import { Layout } from './components/Layout';
-//import { Home } from './components/Home';
-//import { FetchData } from './components/FetchData';
-//import { Counter } from './components/Counter';
-
-//import './custom.css'
-
-//export default class App extends Component {
-//  static displayName = App.name;
-
-//  render () {
-//    return (
-//      <Layout>
-//        <Route exact path='/' component={Home} />
-//        <Route path='/counter' component={Counter} />
-//        <Route path='/fetch-data' component={FetchData} />
-//      </Layout>
-//    );
-//  }
-//}
 
 import CenteredGrid from "./components/CenterGrid"
 import { CssBaseline } from "@material-ui/core"
 import React, { useState, useEffect } from 'react';
-
+import Layout from "./components/Shared/Layout"
 function App() {
    
     return (
-        <CenteredGrid/> 
+      <Layout>123</Layout>
     );
 }
 
